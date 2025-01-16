@@ -52,12 +52,12 @@ function operate(num1,operator,num2){
 const display=document.querySelector(".text");
 const emptyArray=[];
 display.textContent=emptyArray;
-function solution(emptyArray){
-  for(let i=0;i<emptyArray.length+1,i++){
-    if(i=)
-  }
+//function solution(emptyArray){
+ // for(let i=0;i<emptyArray.length+1,i++){
+   // if(i=)
+  //}
   
-}
+//}
 
 clear.addEventListener("click",()=>{emptyArray=[]});
 one.addEventListener("click",()=>{emptyArray+=["1"]});
@@ -75,7 +75,7 @@ multiple.addEventListener("click",()=>{emptyArray+=["*"]});
 minus.addEventListener("click",()=>{emptyArray+=["-"]});
 plus.addEventListener("click",()=>{emptyArray+=["+"]});
 dot.addEventListener("click",()=>{emptyArray+=["."]});
-equals.addEventListener("click",solution());
+equals.addEventListener("click",console.log("HELLO"));
 console.log(display)
 
 
