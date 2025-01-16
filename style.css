@@ -27,11 +27,13 @@ p{
     width: 300px;
     border: 2px solid black;
     background-color: white;
+    color: black;
+    font-family: "Roboto",serif;
 }
 .row1,.row2,.row3,.row4,.row5{
     display: flex;
 }
-button{
+input{
     height: 100px;
     width: 100px;
     background-color: aquamarine;
@@ -43,6 +45,6 @@ button{
 .clear{
     height: 103px;
 }
-button:hover{
+input:hover{
     cursor: pointer;
 }
