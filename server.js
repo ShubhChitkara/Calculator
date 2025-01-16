@@ -50,27 +50,33 @@ function operate(num1,operator,num2){
   }
 }
 const display=document.querySelector(".text");
-display.textContent=[];
-clear.addEventListener("click",display=[]);
-one.addEventListener("click",display.textContent+=[1]);
-two.addEventListener("click",display.textContent+=[2]);
-three.addEventListener("click",display.textContent+=[3]);
-four.addEventListener("click",display.textContent+=[4]);
-five.addEventListener("click",display.textContent+=[5]);
-six.addEventListener("click",display.textContent+=[6]);
-seven.addEventListener("click",display.textContent+=[7]);
-eight.addEventListener("click",display.textContent+=[8]);
-nine.addEventListener("click",display.textContent+=[9]);
-zero.addEventListener("click",display.textContent+=[0]);
-division.addEventListener("click",display.textContent+=["/"]);
-multiple.addEventListener("click",display.textContent+=["*"]);
-minus.addEventListener("click",display.textContent+=["-"]);
-plus.addEventListener("click",display.textContent+=["+"]);
-dot.addEventListener("click",display.textContent+=["."]);
+const emptyArray=[];
+display.textContent=emptyArray;
+function solution(emptyArray){
+  for(let i=0;i<emptyArray.length+1,i++){
+    if(i=)
+  }
+  
+}
+
+clear.addEventListener("click",()=>{emptyArray=[]});
+one.addEventListener("click",()=>{emptyArray+=["1"]});
+two.addEventListener("click",()=>{emptyArray+=["2"]});
+three.addEventListener("click",()=>{emptyArray+=["3"]});
+four.addEventListener("click",()=>{emptyArray+=["4"]});
+five.addEventListener("click",()=>{emptyArray+=["5"]});
+six.addEventListener("click",()=>{emptyArray+=["6"]});
+seven.addEventListener("click",()=>{emptyArray+=["7"]});
+eight.addEventListener("click",()=>{emptyArray+=["8"]});
+nine.addEventListener("click",()=>{emptyArray+=["9"]});
+zero.addEventListener("click",()=>{emptyArray+=["0"]});
+division.addEventListener("click",()=>{emptyArray+=["/"]});
+multiple.addEventListener("click",()=>{emptyArray+=["*"]});
+minus.addEventListener("click",()=>{emptyArray+=["-"]});
+plus.addEventListener("click",()=>{emptyArray+=["+"]});
+dot.addEventListener("click",()=>{emptyArray+=["."]});
 equals.addEventListener("click",solution());
 console.log(display)
 
 
-function solution(display){
-  
-}
+
